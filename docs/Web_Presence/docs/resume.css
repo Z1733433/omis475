@@ -1,0 +1,10 @@
+pre  {
+    overflow:auto;
+    height:310px;
+    font-size:20;
+    border-top:solid;
+    margin-bottom:0px;
+    font-style:strong;
+    font-family:'Times New Roman', Times, serif;
+    padding-left:5px;
+}

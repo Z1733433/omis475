@@ -11,6 +11,7 @@ nav {
     float: left;
     background-color:darkgray; 
     border-right:solid;
+    height:380px;
 }
 aside { 
     float: right;
@@ -26,6 +27,9 @@ footer {
     border-top:solid;
     background-color:gray;
 }	
+h2  {
+    padding-left:5px;
+}
 ul  {
     padding:5px;
 }
@@ -67,3 +71,7 @@ a:active{
     height: 300px;
     border-top:solid;
   }
+table  {
+    margin:auto;
+    border:solid;
+}

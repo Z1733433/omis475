@@ -50,12 +50,20 @@ a:active{
 }
 .column3 {
     float: left;
-    width: 28.73%;
+    width: 28.5%;
     padding: 10px;
     height: 300px;
+    border-top:solid;
 }
 .row:after {
     content: "";
     display: table;
     clear: both;
+  }
+  .column2 {
+    float: left;
+    width: 43.72%;
+    padding: 10px;
+    height: 300px;
+    border-top:solid;
   }

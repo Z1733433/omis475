@@ -15,18 +15,18 @@ nav {
     float: left;
     background-color:darkgray; 
     border-right:solid;
-    width:150px;
-    height:600px;
+    width:10%;
+    height:100%;
 }
 aside { 
     float: right;
-    width: 150px; 
-    height:600px;
+    width: 10%; 
+    height:100%;
     border-left:solid;
     background-color:darkgray;
 }
 main { 
-
+        height:100%;
 }
 footer { 
     text-align: center;
@@ -105,8 +105,8 @@ a:active{
 }
 table  {
     margin:auto;
-    width:1190px;
-    height:530;
+    width:80%;
+    height:80%;
     border: 3px solid black;
     border-collapse:collapse;
     background-color:lightgray;
@@ -117,4 +117,13 @@ th  {
 }
 td  {
     border:1px solid black;
+}
+.tableh2  {
+    margin-top:0%;
+    text-align:center;
+    color:white;
+}
+.bgimage  {
+    background-image:url(images/lightning.jpg);
+    background-repeat: repeat;
 }

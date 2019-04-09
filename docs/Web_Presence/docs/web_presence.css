@@ -128,3 +128,19 @@ td  {
     background-image:url(images/lightning.jpg);
     background-repeat: repeat;
 }
+pre  {
+    overflow:auto;
+    height:85%;
+    font-size:20;
+    border-top:solid;
+    margin-bottom:0px;
+    font-style:strong;
+    font-family:'Times New Roman', Times, serif;
+    padding-left:5px;
+    background-color:white;
+}
+form  {
+    border-top:solid;
+    padding-top:5px;
+    font-size:20;
+}

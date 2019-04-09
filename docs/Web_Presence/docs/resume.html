@@ -5,7 +5,7 @@
     <head>
         <title>web_presence_resume</title>
         <link rel="stylesheet" href="web_presence.css">
-        <link rel="stylesheet" href="resume.css">
+        <link rel="stylesheet" href="resume.css" type="text/css" media="print">
     </head>
     <body>
         <div id="container">
@@ -29,6 +29,11 @@
                 <h2>Resume</h2>
                 <!-- Content for page here -->
                 <pre>
+Bryce Albert Frank
+Address: 818 Greenbriar Road, DeKalb IL 60115
+Phone: (217) 441-1991
+Email: brycefrank28@gmail.com
+                        
 Objective:
 o	Seeking internship or entry-level position within a company to expand my experience and enhance my skills in the information system field.
 Education: 
@@ -55,7 +60,7 @@ Skills:
 Organizations:
 	Alpha Kappa Lambda Fraternity
 President   (2017)
-        o	Created and implemented a scroll points system to increase 	member attendance and commitment during a time of need
+        o	Created and implemented a scroll points system to increase member attendance and commitment during a time of need
         o	Worked with executive board to solve problems and to create a better, longer lasting organization 
         o	Communicated with school officials as the chapter representative to protect the chapter and offer insight on the Greek community
         o	Guided other positions within the fraternity to maintain and further the organizations commitment to its members and the community
@@ -64,6 +69,10 @@ Secretary   (2015)
         o	Took attendance at events to ensure members were staying active in the fraternity 
         o	Worked with every member personally to help them solve their own issues 
                 </pre>
+                <form>
+                    <label>Company Name or Personal Name: <input type="text" name="name" id="id" required></label>
+                    <button type="button" name="Print" id="print" onClick="window.print()">Print</button>
+                </form>
                 <!-- End main content -->
             </main>
         </div>

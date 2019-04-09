@@ -60,13 +60,14 @@ h2  {
     padding-left:5px;
 }
 p  {
-
+    font-size: 18.5;
 }
 ul  {
     padding:5px;
 }
 li  {
     text-align:center;
+    font-size:18.5
 }
 a:link{
     color:black;

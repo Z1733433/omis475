@@ -9,7 +9,7 @@
     <body>
         <div id="container">
             <header role="banner">
-                <h1><a id="top">Bryce Frank's Web Presence</a></h1>
+                <h1><a id="top" href="../index.html">Bryce Frank's Web Presence</a></h1>
             </header>
             <nav role="navigation">
                 <ul style="list-style-type:none;"><hr>
@@ -27,7 +27,24 @@
             <main role="main">
                 <h2>Contact</h2>
                 <!-- Content for page here -->
-
+                <form style="width:20%;margin:auto;border:none;"><fieldset>
+                    <legend>Contact Form</legend>
+                    <label>Name: <br><input type="text" required></label><br><br>
+                    <label>Phone Number: <br><input type="text" required></label><br><br>
+                    <label>Email: <br><input type="text" required></input></label><br><br>
+                    <label>Preferred Method of Contact: <br> 
+                        <select>
+                            <option>Call</option>
+                            <option>Text</option>
+                            <option>Email</option>
+                        </select>
+                    </label><br><br>
+                    <label>Comments: <br>
+                        <textarea rows="3" cols="60"></textarea>
+                    </label>
+                    <input type="submit">
+                </fieldset>
+                </form>
                 <!-- End main content -->
             </main>
         </div>

@@ -1,0 +1,16 @@
+nav {display:none;}
+header {display:none;}
+footer {display:none;}
+h1 {display:none;}
+h2 {display:none;}
+ul {display:none;}
+li {display:none;}
+form {display:none;}
+pre  {
+    border-top:none;
+    overflow:hidden;
+    height:100%;
+    width:100%;
+    margin:auto;
+    word-wrap:break-word;
+}

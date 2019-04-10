@@ -5,11 +5,12 @@
     <head>
         <title>web_presence_resume</title>
         <link rel="stylesheet" href="web_presence.css">
+        <link rel="stylesheet" href="resume.css" type="text/css" media="print">
     </head>
     <body>
         <div id="container">
             <header role="banner">
-                <h1><a id="top">Bryce Frank's Web Presence</a></h1>
+                <h1><a id="top" href="../index.html">Bryce Frank's Web Presence</a></h1>
             </header>
             <nav role="navigation">
                 <ul style="list-style-type:none;"><hr>
@@ -27,7 +28,51 @@
             <main role="main">
                 <h2>Resume</h2>
                 <!-- Content for page here -->
+                <pre>
+Bryce Albert Frank
+Address: 818 Greenbriar Road, DeKalb IL 60115
+Phone: (217) 441-1991
+Email: brycefrank28@gmail.com
+                        
+Objective:
+o	Seeking internship or entry-level position within a company to expand my experience and enhance my skills in the information system field.
+Education: 
+Bachelor of Science – Operations Management & Information Systems
+		Northern Illinois University, DeKalb IL
+		Emphasis: Information Systems
+		Expected Graduation: May 2019
+Experience:
+	Menards Inc., 1845 Mercantile Drive, Sycamore IL
+		Sales Associate		(2014-Present)
+        o	Asses customer’s home improvement needs and use product knowledge to aid them in decision making to ensure customer satisfaction
+        o	Create and improve customer loyalty by consistently providing great guest service
+        o	Organize, re-arrange, and stock merchandise to increase sales
+        o	Closed several different departments as senior team member and assisted with managerial duties
+Skills:
+ 
+        o	Proficient with Microsoft Office		
+        o	Advanced technological knowledge
+        o	SQL programing 
+        o	Database 
+        o	Basic C++ programming 
+        o	ERP systems
 
+Organizations:
+	Alpha Kappa Lambda Fraternity
+President   (2017)
+        o	Created and implemented a scroll points system to increase member attendance and commitment during a time of need
+        o	Worked with executive board to solve problems and to create a better, longer lasting organization 
+        o	Communicated with school officials as the chapter representative to protect the chapter and offer insight on the Greek community
+        o	Guided other positions within the fraternity to maintain and further the organizations commitment to its members and the community
+Secretary   (2015)
+        o	Kept detailed historical records for the organization for further use 
+        o	Took attendance at events to ensure members were staying active in the fraternity 
+        o	Worked with every member personally to help them solve their own issues 
+                </pre>
+                <form>
+                    <label>Company Name or Personal Name: <input type="text" name="name" id="id" required></label>
+                    <button type="button" name="Print" id="print" onClick="window.print()">Print</button>
+                </form>
                 <!-- End main content -->
             </main>
         </div>
